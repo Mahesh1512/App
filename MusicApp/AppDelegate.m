@@ -18,6 +18,28 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    CGSize result=[[UIScreen mainScreen]bounds].size;
+    
+//    [NSThread sleepForTimeInterval:2.5];
+    
+    if(result.height == 568)
+    {
+        registrationScreenObj = [[RegistrationScreen alloc] initWithNibName:@"RegistrationScreen@5" bundle:nil];
+        iPhone5 = YES;
+    }
+    else
+    {
+        registrationScreenObj = [[RegistrationScreen alloc] initWithNibName:@"RegistrationScreen" bundle:nil];
+        iPhone4 = YES;
+    }
+    
+    
+    
+    navObj = [[UINavigationController alloc] initWithRootViewController:registrationScreenObj];
+
+    self.window.rootViewController = navObj;
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
@@ -131,6 +153,7 @@
          Lightweight migration will only work for a limited set of schema changes; consult "Core Data Model Versioning and Data Migration Programming Guide" for details.
          
          */
+        
         NSLog(@"Unresolved error %@, %@", error, [error userInfo]);
         abort();
     }    

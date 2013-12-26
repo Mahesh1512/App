@@ -7,8 +7,23 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RegistrationScreen.h"
+#import "MBProgressHUD.h"
+
+NSString *ArtistStr, *TitleStr;
+NSURL *assetURL;
+
+MBProgressHUD *HUD;
+
+BOOL isFromHomeScreen;
+
+@class RegistrationScreen;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+{
+    RegistrationScreen *registrationScreenObj;
+    UINavigationController *navObj;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

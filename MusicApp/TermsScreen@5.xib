@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TermsScreen">
+            <connections>
+                <outlet property="view" destination="1" id="EkK-i1-mzC"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Do5-cV-3pd">
+                    <rect key="frame" x="0.0" y="65" width="320" height="503"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <string key="text">TERMS OF SERVICE
+Last updated: December 9, 2013
+
+By using the Emotisong app, a Service of QUESTDOVE INC. (referred to as “the Company”, “we” or “us”) you are agreeing to be bound by the following terms of service ("Terms"). If you do not agree to these Terms, do not use the Service. 
+
+We may revise and update these Terms at any time and without notice. If we revise or update these Terms it will be reflected by the "Last updated" date above. Please revisit this page to stay aware of any changes. Your continued use of the Emotisong Service constitutes your agreement to these Terms and any amendments. If you do not agree with the amended Terms, do not use the Service. 
+OUR AUDIENCE
+The Emotisong Service is intended for people who are 13 years of age or older. You affirm that you are either more than 18 years of age, an emancipated minor, or that you possess parental or guardian consent to use this Service, and are fully able and competent to enter into the terms, conditions, obligations, affirmations, representations and warranties set forth in these Terms of Service, and to abide by these Terms of Service. If you are under the age of 13, you are not permitted to use the Emotisong Service.
+INTENDED PURPOSE
+Emotisong’s intended functions are to:
+i. Provide users with a SMS replacement, using data service through a user’s phone (either via cell network or wifi)
+ii. Enable users to create a clip (of up to 15 seconds) of a song they take from their iTunes library on their iPhones
+iii. Enable users to save the clips they create
+iv. Enable users to text the clips they create to their friends
+By providing users with a new and unique way of texting, Emotisong’s intended purpose is to: 
+i. Inspire creativity 
+ii. Enable people to broaden and deepen their perspectives on music, language and communication
+iii. Promote the transformation of music users love into new forms of self-expression
+
+
+
+Emotisong is intended for recreational use only. Emotisong is not intended to:
+i. Encourage copyright infringement
+ii. Be used for commercial, advertising or marketing purposes, or for the purpose of exploitation 
+iii. Promote illegal file sharing, downloading or distribution of music or be an aid in such illegal activities
+The Company does not endorse copyright infringement, illegal file sharing or the illegal downloading or distribution of music. You agree that you will not use the Emotisong Service in any way other than in the manner contemplated by the Company and these Terms of Service (as described above). You further acknowledge and agree that you shall be solely responsible for how you use the Service as well as the consequences of how you use it. Though we facilitate the Service we cannot control how you use it. QUESTDOVE INC. expressly disclaims any and all liability in connection with your use of the Service. 
+QUESTDOVE INC. does not and does not claim to own the intellectual property rights or copyrights of the songs in users’ iTunes library or “Cliptionary” *. You agree that neither this agreement nor your use of songs and clips through the Emotisong Service constitute a transfer of ownership of the songs from the songs’ copyright holders to you. You acknowledge and agree that only the copyright holders of the songs can authorize such a transfer and that QUESTDOVE INC. is not and in no way claims to be in a position to authorize such a transfer.  
+*As part of the Emotisong Service, we offer what is called a “Cliptionary”, which is a folder where you can store song clips you have made using the Emotisong Service. 
+GENERAL LIMITATIONS
+Subject to your compliance with these Terms of Service, the Company hereby grants you permission to use the Emotisong Service, provided that: (i) your use of the Service as permitted is solely for your personal use, in compliance with any law applicable to you and consistent with the intended purpose of the Emotisong Service (as described under “Intended Purpose” above), (ii) you do not resell or charge others for use of or access to the Service, (iii) you will not copy, duplicate, transfer, or distribute any part of the Service without the Company’s prior written authorization; (iv) you will not attempt to modify or otherwise make any derivative use of any part of the Service; and (v) you will otherwise comply with the terms and conditions of these Terms of Service and Privacy Policy. 
+In order to access and use all of the features of the Emotisong Service, you understand and agree that you will have to provide us with your mobile phone number. You also understand and agree that in order to provide the full Emotisong Service, we may periodically access the native phonebook on your mobile device to find and keep track of mobile phone numbers of other Emotisong users. You hereby give your express consent for us to access your native phonebook for mobile phone numbers in order for us to provide and for you to use the full Service. We do not collect names, addresses or email addresses. You must notify us immediately of any breach of security or unauthorized use of your mobile phone. Although we will not be liable for your losses caused by any unauthorized use of your account, you may be liable for our or others’ losses due to such unauthorized use. 
+Any use of the Emotisong Service or Content other than as specifically authorized in these Terms or intended by the Company, without the prior written authorization of the Company, is strictly prohibited and will terminate your permission granted in these Terms to use Emotisong.
+LIMITATIONS OF USE
+You agree that you will not: 
+i. Use the communication systems provided by the Emotisong Service for any commercial solicitation, spam, promotional, marketing or advertising purposes. 
+ii. Use the Services for, engage in or promote any illegal activities or any activity that violates these Terms or the intended purpose of Emotisong, outlined in these Terms.
+iii. Transmit, store or upload any material that violates any copyright, trademark or other intellectual property rights or any material that is unlawful, obscene, violent, harassing or hateful. 
+iv. Take any action that imposes an excessive burden on or damages the Service in any way, such as transmitting, storing or uploading any kind of harmful code, programs or systems such as viruses, bugs, spyware, robots, spiders, offline readers, etc.
+v. Take any action that compromises the security of the Service.
+vi. Use any data mining or extraction methods in relation with the Service.
+vii. Collect or intercept user content or data without their consent.
+viii. Use or attempt to use another user’s account without authorization.
+ix. Attempt to indicate in any manner that you have a relationship with us or that we have endorsed you or any products or services without our express written consent to do so.
+x. Develop any third-party applications that interact with User Content or the Emotisong Service without our prior written consent.
+
+
+
+
+RIGHTS
+The Company reserves the right to charge for all or part of the Emotisong Service at its sole discretion and at no liability to you. If we should decide to do so, we commit to notifying you of this at an appropriate time and in an appropriate manner, whether you are a prospective or current user of the Emotisong Service, so as to offer you the choice of either proceeding or continuing to use the Service or not. 
+The Company reserves the right to provide you with advertisement, at its sole discretion and at no liability to you, either directly or via its partnership with advertisement providers, such as ad networks, to be displayed on any device you use to access and operate the Emotisong Service.
+You acknowledge and agree that the Company cannot be held liable for any characteristic of the advertisements displayed by Emotisong on any of your devices used to access and operate the Service, including accuracy, appropriateness or compliance with any rule and regulation you may be subject to. 
+The Company reserves the right to notify you, via the Emotisong Service, in the event of a security breach, for commercial purposes or the purpose of updating you on important changes in the Emotisong Service.
+We reserve the right to remove, at our sole discretion and no prior notice or liability to you, any content transmitted, stored or uploaded via the Emotisong Service. We may also, at our sole discretion, refuse access to the Service or terminate the account of any user for any reason at any time and without prior notice. We may, in our sole discretion, refuse to offer the Services to any person or entity. 
+The Company reserves the right, without any liability to you, to change or terminate all or part of the Emotisong Service without prior notice or any liability to you.
+IP RIGHTS
+
+The design of the Emotisong Service along with the Emotisong name, logo, icons, trademarks, code and graphics (collectively, “Emotisong Content” *) are the ownership of QUESTDOVE INC. and are subject to copyright and other intellectual property rights under United States and foreign laws and international conventions. The Service is provided to you AS IS for your information and personal use only. You may only use the Emotisong Service and content for its intended purposes (as described under, “Intended Purpose”, above). You agree that you will not copy, use, sell, distribute or exploit in any way any of the Emotisong Service, Content, name, logo or trademarks other than expressly permitted herein or for any commercial purposes. Except as expressly provided in these Terms, the Company does not grant any express or implied rights to use Emotisong Content. 
+The Company respects the intellectual property rights of others and, if properly notified of an infringement on another’s intellectual property rights via the Emotisong Service, reserves the right to remove the infringing content and terminate the account of users who infringe on a third party’s rights, at any time, without prior notice and at its sole discretion. If you believe that anything on the Emotisong Service infringes any copyright that you own or control you may file a notice of such infringement by sending an email to info@questdove.com. 
+* Note: “Emotisong Content” does NOT include songs uploaded from the iTunes library and song clips uploaded from the “Cliptionary”.
+DISCLAIMER
+YOU AGREE THAT YOU USE THE EMOTISONG SERVICE AT YOUR OWN RISK. THE SERVICE IS PROVIDED “AS IS” AND THE COMPANY DISCLAIMS ALL WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, WARRANTIES OF TITLE, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. THE COMPANY MAKES NO WARRANTIES AND DISCLAIMS ANY RESPONSIBILITY FOR THE RELIABILITY, SECURITY, ACCURACY OR COMPLETENESS OF THIS SERVICE AND ASSUMES NO LIABILITY OR RESPONSIBILITY FOR ANY (i) ERRORS IN OUR SERVICE’S CONTENT, (ii) DISRUPTIONS OR IMPERFECTIONS IN OUR SERVICE’S FUNCTION OR PERFORMANCE, (iii) DAMAGES, INCLUDING BUT NOT LIMITED TO PROPERTY DAMAGE, LOSS OF PROFITS, LOSS OF DATA OR PERSONAL INJURY, RESULTING FROM YOUR ACCESS TO AND USE OF OUR SERVICE, (iv) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SERVERS AND/OR ANY INFORMATION STORED THEREIN. YOU AGREE THAT THE COMPANY IS NOT RESPONSIBLE FOR THE CONDUCT, WHETHER ONLINE OR OFFLINE, OF ANY USER OF THE SERVICE. FURTHERMORE, THE COMPANY DOES NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH OUR SERVICE OR ANY HYPERLINKED WEBSITE OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED BY YOU FROM QUESTDOVE EMPLOYEES SHALL CREATE ANY WARRANTY TO YOU. 
+INTERNATIONAL USE
+The Service is controlled and offered by QUESTDOVE INC. from its facilities in the United States of America. The Company makes no representations that the Emotisong Service is appropriate for use outside the United States. It is your responsibility to assess whether you can use our Service in any relevant jurisdiction and you agree to comply with the export and import laws and regulations of the United States and other applicable countries. Those who access or use the Emotisong Service from other jurisdictions do so at their own volition and are responsible for compliance with local law. 
+
+
+LIMITATION OF LIABILITY 
+IN NO EVENT SHALL QUESTDOVE INC.  ITS OFFICERS, DIRECTORS, EMPLOYEES, OR AGENTS, BE LIABLE TO YOU FOR ANY INDIRECT, SPECIAL, PUNITIVE, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES WHATSOEVER THAT RESULT FROM (A) THE USE OF, OR INABILITY TO USE, THE SERVICE (B) THE PERFORMANCE OF THE SERVICE OR ANY MATERIALS AVAILABLE THEREIN (C) THE CONDUCT, WHETHER ONLINE OR OFFLINE, OF ANY USER OF THE SERVICE, EVEN IF QUESTDOVE INC. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. THE FOREGOING LIMITATION OF LIABILITY SHALL APPLY TO THE FULLEST EXTENT PERMITTED BY LAW IN THE APPLICABLE JURISDICTION. 
+YOU SPECIFICALLY ACKNOWLEDGE THAT THE COMPANY SHALL NOT BE LIABLE OR HELD ACCOUNTABLE FOR USER CONDUCT OR THE DEFAMATORY, OFFENSIVE, OR ILLEGAL CONDUCT OF ANY THIRD PARTY AND THAT THE RISK OF HARM OR DAMAGE FROM THE FOREGOING RESTS ENTIRELY WITH YOU. YOU AGREE THAT YOU ASSUME COMPLETE RESPONSIBILITY FOR YOUR USE OF OUR SERVICE AS WELL AS ANY MATERIAL YOU TRANSMIT, STORE OR UPLOAD THROUGH IT. IF YOU ARE DISSATISFIED WITH THE EMOTISONG SERVICE YOUR SOLE REMEDY IS TO DISCONTINUE USING OUR SERVICE.
+THE LIMITATIONS IN THIS SECTION SHALL SURVIVE ANY TERMINATION OR EXPIRATION OF YOUR ACCOUNT OR YOUR USE OF THE SERVICE.
+NOTHING HEREIN SHALL EXCLUDE OR LIMIT LIABILITY FOR LOSSES WHICH MAY NOT BE LAWFULLY EXCLUDED OR LIMITED BY APPLICABLE LAW. 
+INDEMNIFICATION
+You agree to indemnify, defend and hold harmless the Company, its officers, directors, employees and agents from and against any and all complaints, charges, claims, damages, losses, costs, liabilities, and expenses (including attorneys' fees) due to, arising out of, or relating in any way to (1) your use of the Emotisong Service; (2) your violation of these Terms; (3) your violation of any third party right.
+APPLICABLE LAW
+Any claim or dispute between you and the Company that arises in whole or in part from the Emotisong Service will be governed by these Terms and the laws of the State of New York and shall be decided exclusively by a court of competent jurisdiction located in New York City, New York. If any part of these Terms shall be deemed unlawful, void or for any reason unenforceable, then that part shall be deemed severable from these Terms and shall not affect the validity and enforceability of any remaining provisions. The Company’s failure to assert any right or provision under these Terms of Service shall not constitute a waiver of such right or provision. Any cause of action arising out of or related to the Emotisong Service must commence within one (1) year after the cause of action arises. Otherwise, such cause of action is permanently barred. You agree that no joint venture, partnership, employment, or agency relationship exists between you and the Company as a result of this agreement or your use of the Emotisong Service. 
+COMMENTS/QUESTIONS
+QUESTDOVE INC. welcomes questions, comments, concerns or suggestions. Please send all feedback to info@questdove.com. </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+        </view>
+    </objects>
+</document>
