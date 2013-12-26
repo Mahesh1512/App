@@ -13,6 +13,75 @@
         <view contentMode="scaleToFill" id="1">
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B3k-n2-h5Q">
+                    <rect key="frame" x="0.0" y="66" width="320" height="414"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <mutableString key="text">PRIVACY POLICY
+ 
+Last updated: December 9, 2013
+ 
+Emotisong is a product of QUESTDOVE INC. (“the Company”, “we”, “us”), which is based in New York City, New York. This Privacy Policy is part of the Terms of Service of your use of the Emotisong app and is meant to clarify how information about you is gathered, used, disclosed and protected by us. If you do not agree with our practices please do not use the Emotisong Service.
+ 
+We may revise and update this Privacy Policy at any time and without notice. If we revise or update this policy it will be reflected by the "Last updated" date above. Please revisit this page to stay aware of any changes. Your continued use of the Emotisong Service constitutes your agreement to this Privacy Policy and any amendments. If you do not agree with the amended policy, do not use the Service.
+ 
+INFORMATION WE COLLECT
+ 
+Information you provide us
+When you register an account with Emotisong, we collect and retain your mobile phone number and a username. In order to provide the full Emotisong Service, we will periodically access the native phonebook on your mobile phone to locate the mobile phone numbers of other Emotisong users. You can grant or revoke your consent to this by changing the settings on your iOS device.
+Information automatically collected through our Service
+When you access or use our Service, we automatically collect information about you, including mobile device information, such as model and IP addresses.
+When you send clips, we temporarily collect, process and store the contents of the clips on our servers for streaming purposes. When you send or receive messages, we temporarily collect, process and store the contents of the messages on our servers for backup purposes. They will not be deleted until you delete them from your phone. If you delete your account, the information that may have been collected from you will be deleted. If a message is undelivered for 30 days it will be deleted from our servers. The contents of clips or messages are also temporarily stored on the devices of recipients.
+We also collect certain information whenever a message or clip is sent or received, such as time and date stamps, the mobile phone numbers the messages or clips were sent from and to (sender and recipient data exchanges), information about those messages or clips, information about the number of texts or clips sent and received between you and your friends, as well as any other information which the Company is legally compelled to collect.
+ 
+ 
+ 
+USE OF INFORMATION
+We may use information about you in order to:
+i. Provide, maintain and improve our Service
+ii. Respond to your comments, questions and requests and provide customer service
+iii. Notify you of service changes, updates, security alerts
+iv. Communicate with you about products, services, offers, promotions, rewards, and events offered by QUESTDOVE INC. and others
+v. Monitor and analyze user preferences, trends, usage and activities in connection with our Services to improve the quality and design of the Emotisong Service and to create new features, promotions and functionalities
+vi. Understand you and your preferences so that we can personalize and enhance your user experience
+vii. Link or combine with information we get from third parties to help understand your needs and provide you with better service
+viii. Detect, investigate and prevent fraudulent, unauthorized or illegal activity
+SHARING OF INFORMATION
+We may share information about you
+i. With other users when you send them text messages or clips, including your username and the contents of the text or clip you send them.
+ii. With third party service providers who work for us and need access to such information to carry out that work.
+iii. If legally required to do so, in response to law enforcement requests, to verify or enforce compliance with our policies and Terms of Service, to take precautions against liability, to investigate and defend ourselves against any third-party claims or allegations, to protect the security or integrity of the Emotisong Service or our servers, and to protect the rights, property, or personal safety of the company, our users or others
+iv. In connection with, or during negotiations of any merger, financing, reorganization, sale or acquisition of all or a portion of our business to another company. We may not be able to control how your personal information is treated, transferred, or used in such an event.
+v. To a third party, with your explicit consent or at your direction, subject to their separate terms and privacy policy. You acknowledge that the Company shall have no liability to you for the sharing of such information to such third parties and the company disclaims any and all liability relating thereto.
+vi. We will share your username with other users if the contact information you use to setup an Emotisong account is in their native mobile phonebook. Similarly, when you sync your native mobile phonebook with Emotisong, the app will display which of the contacts in your native mobile phonebook are Emotisong users.
+ 
+ 
+ 
+ 
+ 
+INTERNATIONAL USE
+The Emotisong Service is hosted in the United States and is intended for and directed at users in the United States. If you are a user accessing the Service from the European Union, Asia, or any other region with laws or regulations governing personal data collection, use, and disclosure, that differ from United States laws, please be advised that through your continued use of the Emotisong Service, which is governed by U.S. law, these Terms of Service and our Privacy Policy, you are transferring your personal information to the United States and you expressly consent to that transfer.
+PUSH NOTIFICATIONS/ALERTS
+We may send push notifications or alerts to your device through the Emotisong Service. You can deactivate these messages at any time by changing the notification settings on your iOS device.
+SECURITY
+ 
+We take reasonable steps to help protect your personal information from loss, misuse and unauthorized access, disclosure, alteration, and destruction. However, we cannot warrant the security of any information you transmit to and through Emotisong and you do so at your own risk. Under no circumstances should you use the Emotisong Service to transmit confidential or privileged information of any sort. If we learn of a security systems breach we may notify you through the Emotisong Service.
+ 
+CHILDREN
+ 
+We do not knowingly collect or maintain personal information from users under the age of 13. No part of the Emotisong Service is intended for use of persons under 13 years of age. If you are under 13 years of age, please do not use the Emotisong Service.
+ 
+YOUR CHOICES
+ 
+Though it would limit your options in and overall experience of the Emotisong Service, you may, of course, decline to submit Personally Identifiable Information through the Emotisong Service. If you do not agree with our Privacy Policy or Terms of Service, please delete your account, uninstall the Emotisong mobile application and discontinue use of the Emotisong Service. Your continued use of the Emotisong Service will signify your assent to and acceptance of our Privacy Policy and Terms of Service.
+COMMENTS/QUESTIONS
+QUESTDOVE INC. welcomes questions, comments, concerns or suggestions. Please send all feedback to info@questdove.com.
+</mutableString>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>

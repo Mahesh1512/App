@@ -11,7 +11,7 @@
 #import "TermsScreen.h"
 #import "PrivacyPolicyScreen.h"
 
-@interface SettingsScreen : UIViewController
+@interface SettingsScreen : UIViewController<UIActionSheetDelegate>
 {
    IBOutlet SettingsCell *settingsCellObj;
 

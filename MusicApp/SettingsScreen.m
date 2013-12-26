@@ -131,21 +131,20 @@
     }
     else
     {
+        NSString *destructiveTitle = @"Delete Account"; //Action Sheet Button Titles
+        NSString *cancelTitle = @"Cancel";
         
+        UIActionSheet *actionSheet = [[UIActionSheet alloc]
+                                      initWithTitle:nil
+                                      delegate:self
+                                      cancelButtonTitle:cancelTitle
+                                      destructiveButtonTitle:destructiveTitle
+                                      otherButtonTitles: nil];
+        
+        [actionSheet showInView:self.view];
     }
     
     
-    
-//    if (iPhone4)
-//    {
-//        chatScreenObj = [[ChatScreen alloc] initWithNibName:@"ChatScreen" bundle:nil];
-//    }
-//    else
-//    {
-//        chatScreenObj = [[ChatScreen alloc] initWithNibName:@"ChatScreen@5" bundle:nil];
-//    }
-//    
-//    [self.navigationController pushViewController:chatScreenObj animated:YES];
     
 }
 

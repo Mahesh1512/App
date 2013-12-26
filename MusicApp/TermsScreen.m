@@ -40,7 +40,7 @@
     // ^-Use UITextAlignmentCenter for older SDKs.
     label.textColor = [UIColor colorWithRed:249.0/255.0 green:202.0/255.0 blue:3.0/255.0 alpha:1.0] ; // change this color (yellow)
     self.navigationItem.titleView = label;
-    label.text = NSLocalizedString(@"TERMS OF SERVICE", @"");
+    label.text = NSLocalizedString(@"Terms of service", @"");
     [label sizeToFit];
     
     
