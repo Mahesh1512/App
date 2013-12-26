@@ -27,5 +27,6 @@ NSString *StrNavText;
 }
 
 - (IBAction)btnNext:(id)sender;
+- (IBAction)KeyBoardResign:(id)sender;
 
 @end

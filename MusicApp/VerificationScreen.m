@@ -90,4 +90,9 @@
     [self.navigationController pushViewController:profileScreenObj animated:YES];
 
 }
+
+- (IBAction)KeyBoardResign:(id)sender
+{
+    [[self view] endEditing:YES];
+}
 @end
