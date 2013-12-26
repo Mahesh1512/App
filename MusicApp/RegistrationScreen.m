@@ -41,8 +41,7 @@
     label.text = NSLocalizedString(@"Phone Number Verification", @"");
     [label sizeToFit];
     
-    
-    
+
 }
 
 -(void)viewWillAppear:(BOOL)animated
@@ -71,5 +70,11 @@
     
     [self.navigationController pushViewController:verificationScreenObj animated:YES];
     
+}
+
+- (IBAction)keyBoardResign:(id)sender
+{
+    [[self view] endEditing:TRUE];
+
 }
 @end

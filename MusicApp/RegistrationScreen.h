@@ -15,4 +15,5 @@
     VerificationScreen *verificationScreenObj;
 }
 - (IBAction)btnNext:(id)sender;
+- (IBAction)keyBoardResign:(id)sender;
 @end
