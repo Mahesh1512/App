@@ -46,7 +46,7 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-//    [self btnNext:self];
+    [self btnNext:self];
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,7 +57,7 @@
 
 - (IBAction)btnNext:(id)sender
 {
-    StrNavText = @"abcd";
+    StrNavText = @"mobile number";
     
     if (iPhone5)
     {

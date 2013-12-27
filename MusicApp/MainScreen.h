@@ -14,9 +14,13 @@
 #import "SettingsScreen.h"
 #import "ChatListingScreen.h"
 
-@interface MainScreen : UIViewController<MPMediaPickerControllerDelegate, UIGestureRecognizerDelegate>
+@interface MainScreen : UIViewController<MPMediaPickerControllerDelegate, UIGestureRecognizerDelegate, AVAudioPlayerDelegate>
 {
 
+    
+    
+    AVAudioPlayer *musicPlayer;
+    
     BOOL touchedFirstTime;
     UIImageView *imgShadedArea;
     
@@ -41,7 +45,7 @@
     IBOutlet UIView *messageViewOutlet;
     
     int clippedSliderValue;
-    float mainSliderValue;
+    double mainSliderValue;
     
     IBOutlet UIButton *btnPlayOutlet;
     IBOutlet UILabel *lblMainSliderTime;

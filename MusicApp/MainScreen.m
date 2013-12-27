@@ -257,7 +257,7 @@
 - (IBAction)mainSliderAction:(id)sender
 {
     UISlider *MYslider = (UISlider *)sender;
-    mainSliderValue = (float)(MYslider.value);
+    mainSliderValue = (double)(MYslider.value);
     
     NSLog(@"mainSliderValue : %f",mainSliderValue);
     
@@ -313,9 +313,63 @@
         
         NSLog(@"SliderValue < 0 \nStart: %.2ld, End: %.2ld",start,end);
     }
-    
 
+    if (!musicPlayer.playing)
+    {
+        NSError *error;
+        musicPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:assetURL error:&error];
+        musicPlayer.delegate = self;
+        
+        if (error)
+             NSLog(@"Error: %@",[error localizedDescription]);
+        else
+        {
+//             NSLog(@"Playing from(ms): %f", mainSliderValue);
+//            NSLog(@"Playing from(s): %f", mainSliderValue/60);
+            
+            
+            if (clippedSliderValue > 0)
+            {
+                [musicPlayer setCurrentTime:mainSliderValue/60];
+
+                [NSTimer scheduledTimerWithTimeInterval:(clippedSliderValue) target:self selector:@selector(pause:) userInfo:nil repeats:NO];
+            }
+            else
+            {
+                [musicPlayer setCurrentTime:(mainSliderValue/60)-clippedSliderValue];
+
+                
+                
+                [NSTimer scheduledTimerWithTimeInterval:(ABS(clippedSliderValue)) target:self selector:@selector(pause:) userInfo:nil repeats:NO];
+            }
+            
+            [musicPlayer play];
+
+
+        }
+    }
+
+   
 }
+
+- (void)pause:(id)sender {
+    [musicPlayer pause];
+}
+
+
+#pragma  mark - audio player delegate
+
+-(void)audioPlayerDidFinishPlaying:(AVAudioPlayer *)player successfully:(BOOL)flag
+{
+//   [btnPlayOutlet setBackgroundImage:[UIImage imageNamed:@"play_btn"] forState:UIControlStateNormal];
+    [musicPlayer stop];
+    
+}
+-(void)audioPlayerDecodeErrorDidOccur:(AVAudioPlayer *)player error:(NSError *)error
+{
+     NSLog(@"Decode Error occurred: %@", [error localizedDescription]);
+}
+
 
 #pragma  mark - UITextView Delegate
 #pragma maark
@@ -613,16 +667,16 @@
     lblArtistName.text = ArtistStr = [anItem valueForProperty:MPMediaItemPropertyArtist];
     NSString *musicDurationStr = [anItem valueForProperty:MPMediaItemPropertyPlaybackDuration];
     
-    NSLog(@"%@", musicDurationStr);
+    NSLog(@"musicDurationStr: %@", musicDurationStr);
 
     musicDuration = [musicDurationStr doubleValue];
     
 //    areaToBeShaded = ((260.0/musicDuration) * 15);
     
     mainSlider.minimumValue = 0.00;
-    mainSlider.maximumValue = (long)musicDuration*60  ;
+    mainSlider.maximumValue = (double)musicDuration*60  ;
     
-    NSLog(@"%f", mainSlider.maximumValue);
+    NSLog(@"mainSlider.maximumValue: %f", mainSlider.maximumValue);
     
 //    [mainSlider setValue:musicDuration animated:YES];
 //    lblMainSliderTime.text = [NSString stringWithFormat:@"%.2f",musicDuration/60];

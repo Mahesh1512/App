@@ -50,6 +50,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)viewWillAppear:(BOOL)animated
+{
+    [self btnNext:self];
+}
+
 
 - (IBAction)btnNext:(id)sender
 {

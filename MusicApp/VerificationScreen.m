@@ -48,7 +48,7 @@
 
 -(void)viewWillAppear:(BOOL)animated
 {
-    //    [self btnNext:self];
+        [self btnNext:self];
     
     NSLog(@"%@", StrNavText);
     
